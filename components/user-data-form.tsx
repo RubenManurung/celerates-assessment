@@ -190,7 +190,6 @@ export function UserDataForm() {
     try {
       const doc = generatePdf();
       if (doc) {
-        // Download PDF
         doc.save(
           `${userData.name.title} ${userData.name.first} ${
             userData.name.last
@@ -441,7 +440,7 @@ export function UserDataForm() {
                     </TabsContent>
                   </Tabs>
                 </CardContent>
-                <CardFooter className="flex justify-between">
+                <CardFooter className="flex flex-col md:flex-row gap-y-4 justify-between">
                   <Button
                     type="button"
                     variant="outline"
