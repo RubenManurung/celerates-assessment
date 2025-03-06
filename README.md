@@ -37,10 +37,11 @@ git clone https://github.com/yourusername/celerates-assessment.git
 cd celerates-assessment
 
 dev steps:
-npm install --legacy-peer-deps
+npm install
 npm run dev
 
 prod steps:
-npm install --legacy-peer-deps
+npm install
 npm run build
 npm run start
+```
