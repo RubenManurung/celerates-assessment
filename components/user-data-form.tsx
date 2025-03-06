@@ -400,7 +400,7 @@ export function UserDataForm() {
                             <FormLabel>Primary Color</FormLabel>
                             <div className="flex items-center gap-2">
                               <FormControl>
-                                <Input {...field} />
+                                <Input type="color" {...field} />
                               </FormControl>
                               <div
                                 className="h-8 w-8 rounded-full border"
